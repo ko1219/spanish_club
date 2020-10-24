@@ -1,0 +1,179 @@
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  color: white;
+  top: 0;
+  z-index: 10;
+}
+
+.btn {
+  line-height: 65px;
+  float: right;
+  padding: 0 25px;
+  display: block;
+    opacity: 0.8;
+    border-radius: 4px;
+    background-color:rgba(255, 255, 255, 0.3);
+}
+
+.btn a {
+  color: white;
+  transition: color 0.5s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active{
+  color: green;
+}
+
+.test{
+  margin-right: 5px;
+}
+.workcontain {
+  margin-right: 5px;
+}
+.howtostudy {
+  margin-right: 5px;
+}
+.roadmap {
+  margin-right: 5px;
+}
+.logo {
+  float: left;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.top-wrapper h1 {
+  color: white;
+  background-color: gray;
+  opacity: 0.7;
+  font-size: 25px;
+  letter-spacing: 8px;
+}
+
+.top-wrapper {
+  padding: 180px 0 200px 0;
+  margin-bottom: 30px;
+    background-image: url(ピアサポ２.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.main-wrapper {
+  height: 1155px;
+}
+
+.main-wrapper ul {
+  border-bottom: 1px solid #eee;
+ padding-left: 35px;
+}
+
+.main-wrapper a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 2;
+}
+
+.mokuji {
+  margin-top: 35px;
+  margin-left: 60px;
+  width: 160px;
+  border: 1px solid gray;
+}
+
+.main-wrapper h2 {
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+.contents {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f7f7f7;
+  padding-bottom: 50px;
+}
+
+.contents img {
+  height: 120px;
+  width: 70%;
+}
+
+.contents span {
+  color: blue;
+}
+
+
+body {
+  height: 1200px;
+  padding-bottom: 80px;
+}
+
+.lesson-explain  {
+  margin: 50px 65px 0 65px;
+  text-align: left;
+}
+
+
+.lesson-explain h3, h5 {
+  text-align: center;
+}
+
+.conversation {
+  margin-bottom: 50px;
+}
+
+.grammer spn {
+  color: blue;
+  padding-bottom: 50px;
+}
+
+.outline {
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: 35px;
+}
+
+
+.outline a {
+  text-align: center;
+  cursor: pointer;
+  transition: color 1s;
+  text-decoration: none;
+  color: black;
+  font-size: 3;
+  font-weight: bold;
+}
+.outline a:hover {
+  color: blue;
+}
+
+.outline a:active{
+  color: green;
+}
+
+.message-wrapper {
+  text-align: center;
+  color: blue;
+}
+
+footer {
+  color: black;
+  padding: 30px 0;
+    border-top: 1px solid #eee;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(238, 238, 238)
+}
+
