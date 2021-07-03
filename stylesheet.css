@@ -8,42 +8,6 @@ header {
   z-index: 10;
 }
 
-.btn {
-  line-height: 65px;
-  float: right;
-  padding: 0 25px;
-  display: block;
-    opacity: 0.8;
-    border-radius: 4px;
-    background-color:rgba(255, 255, 255, 0.3);
-}
-
-.btn a {
-  color: white;
-  transition: color 0.5s;
-  text-decoration: none;
-}
-
-a:hover {
-  color: orange;
-}
-
-a:active{
-  color: green;
-}
-
-.test{
-  margin-right: 5px;
-}
-.workcontain {
-  margin-right: 5px;
-}
-.howtostudy {
-  margin-right: 5px;
-}
-.roadmap {
-  margin-right: 5px;
-}
 .logo {
   float: left;
   width: 150px;
@@ -62,19 +26,19 @@ a:active{
 .top-wrapper {
   padding: 180px 0 200px 0;
   margin-bottom: 30px;
-    background-image: url(ピアサポ２.jpg);
-    background-size: cover;
-    color: white;
-    text-align: center;
+  background-image: url(ピアサポ２.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
 .main-wrapper {
-  height: 1155px;
+  height: 100%;
 }
 
 .main-wrapper ul {
   border-bottom: 1px solid #eee;
- padding-left: 35px;
+  padding-left: 35px;
 }
 
 .main-wrapper a {
@@ -82,7 +46,7 @@ a:active{
   color: black;
   font-size: 15px;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   line-height: 2;
 }
 
@@ -99,6 +63,7 @@ a:active{
 }
 
 .contents {
+  height: 100%;
   text-align: center;
   margin-top: 50px;
   background-color: #f7f7f7;
@@ -114,19 +79,18 @@ a:active{
   color: blue;
 }
 
-
 body {
-  height: 1200px;
+  height: 1700%;
   padding-bottom: 80px;
 }
 
-.lesson-explain  {
+.lesson-explain {
   margin: 50px 65px 0 65px;
   text-align: left;
 }
 
-
-.lesson-explain h3, h5 {
+.lesson-explain h3,
+h5 {
   text-align: center;
 }
 
@@ -140,11 +104,11 @@ body {
 }
 
 .outline {
+  height: 100%;
   text-align: center;
   padding-top: 45px;
-  margin-bottom: 35px;
+  margin-bottom: 95px;
 }
-
 
 .outline a {
   text-align: center;
@@ -159,21 +123,28 @@ body {
   color: blue;
 }
 
-.outline a:active{
+.outline a:active {
   color: green;
 }
 
 .message-wrapper {
   text-align: center;
-  color: blue;
+  color: red;
+  margin-top: 300px;
 }
 
 footer {
   color: black;
   padding: 30px 0;
-    border-top: 1px solid #eee;
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: rgb(238, 238, 238)
+  border-top: 1px solid #eee;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(238, 238, 238);
 }
 
+@media screen and (max-width: 500px) {
+  /* スマホ用のスタイル */
+  body {
+    background-color: red;
+  }
+}
