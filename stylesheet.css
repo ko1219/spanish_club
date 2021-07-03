@@ -80,7 +80,7 @@ header {
 }
 
 body {
-  height: 1700%;
+  height: 100%;
   padding-bottom: 80px;
 }
 
@@ -107,7 +107,7 @@ h5 {
   height: 100%;
   text-align: center;
   padding-top: 45px;
-  margin-bottom: 95px;
+  margin-bottom: 35px;
 }
 
 .outline a {
@@ -129,8 +129,7 @@ h5 {
 
 .message-wrapper {
   text-align: center;
-  color: red;
-  margin-top: 300px;
+  color: blue;
 }
 
 footer {
@@ -144,7 +143,7 @@ footer {
 
 @media screen and (max-width: 500px) {
   /* スマホ用のスタイル */
-  body {
-    background-color: red;
+  .message-wrapper h2 {
+    font-size: 13px;
   }
 }
